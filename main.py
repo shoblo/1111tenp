@@ -27,4 +27,7 @@ def test(i=0):
     for j in range(2):
         test(i+1)
 
+def anothertest(x):
+    print(x+5)
+
 test()
